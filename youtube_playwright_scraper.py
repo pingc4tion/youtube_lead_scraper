@@ -13,13 +13,14 @@ SHEET_NAME = "Cold Email"
 SHEET_HEADER_ROW = 11
 NAV_TIMEOUT_MS = 20000
 CHANNELS_PER_KEYWORD_LIMIT = 12
-TOTAL_LEADS_LIMIT = 20
+TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 30_000
 
 keywords = [
-    "how to get customers",
-    "scaling business coach",
-    "business owner advice"
+    "business growth strategist",
+    "scaling bussiness coach",
+    "small business owner",
+    "how to get leads for service business"
 ]
 
 
