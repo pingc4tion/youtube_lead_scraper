@@ -1,0 +1,16 @@
+# data / outputs (regenerated each run)
+*.db
+*.csv
+
+# excel sheet (source-of-truth lives in google drive / xlsx, not git)
+*.xlsx
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editor
+.vscode/
+.idea/
