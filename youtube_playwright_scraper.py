@@ -19,6 +19,7 @@ MAX_SUBSCRIBERS = 30_000
 keywords = [
     "how to get customers",
     "scaling business coach",
+    "business owner advice"
 ]
 
 
@@ -411,7 +412,10 @@ def main():
         saved_path = fallback_file
         print(f"{OUTPUT_FILE} is currently in use. Saved to fallback file instead: {fallback_file}")
 
-    print(df)
+    try:
+        print(df)
+    except UnicodeEncodeError:
+        print(df.to_string().encode("ascii", errors="replace").decode("ascii"))
     print(f"Saved to {saved_path}")
 
 
