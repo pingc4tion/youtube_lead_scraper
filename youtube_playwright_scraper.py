@@ -148,9 +148,14 @@ def parse_relative_age_days(text):
 
 VIDEO_ITEM_SELECTOR = "ytd-rich-item-renderer, ytd-rich-grid-media, ytd-grid-video-renderer"
 VIDEO_META_SELECTOR = (
+    # legacy DOM (old A/B variant)
     "ytd-rich-grid-media #metadata-line span, "
     "ytd-rich-item-renderer #metadata-line span, "
-    "ytd-grid-video-renderer #metadata-line span"
+    "ytd-grid-video-renderer #metadata-line span, "
+    # current DOM: ytd-video-meta-block + inline-metadata-item class
+    "ytd-rich-item-renderer span.inline-metadata-item, "
+    "ytd-rich-grid-media span.inline-metadata-item, "
+    "ytd-grid-video-renderer span.inline-metadata-item"
 )
 
 
@@ -169,7 +174,10 @@ def _wait_for_video_metadata(page):
                 const spans = document.querySelectorAll(
                     'ytd-rich-item-renderer #metadata-line span, '
                     + 'ytd-rich-grid-media #metadata-line span, '
-                    + 'ytd-grid-video-renderer #metadata-line span'
+                    + 'ytd-grid-video-renderer #metadata-line span, '
+                    + 'ytd-rich-item-renderer span.inline-metadata-item, '
+                    + 'ytd-rich-grid-media span.inline-metadata-item, '
+                    + 'ytd-grid-video-renderer span.inline-metadata-item'
                 );
                 for (const s of spans) {
                     if (s.textContent && /\\bago\\b/i.test(s.textContent)) return true;
