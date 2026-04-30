@@ -1,6 +1,5 @@
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeoutError
 import pandas as pd
-import os
 import time
 from datetime import datetime
 from urllib.parse import quote_plus
@@ -50,9 +49,6 @@ def load_existing_urls():
             urls.add(norm)
     print(f"Loaded {len(urls)} existing leads from sheet for dedupe")
     return urls
-
-
-existing_urls = load_existing_urls()
 
 
 def init_db():
@@ -117,12 +113,8 @@ def load_existing_urls_from_db(conn):
     return {r[0] for r in rows if r[0]}
 
 
-db_conn = init_db()
-existing_urls |= load_existing_urls_from_db(db_conn)
-print(f"Total dedupe set size (sheet + db): {len(existing_urls)}")
-run_id = start_run(db_conn, keywords)
-
 all_data = []
+existing_urls = set()
 
 
 def parse_relative_age_days(text):
@@ -379,28 +371,38 @@ def scrape_keyword(page, keyword):
         except Exception as e:
             print("Skipped one result:", e)
 
-with sync_playwright() as p:
-    browser = p.chromium.launch(headless=True)
-    page = browser.new_page()
+def main():
+    global existing_urls
 
-    for keyword in keywords:
-        if len(all_data) >= TOTAL_LEADS_LIMIT:
-            break
-        scrape_keyword(page, keyword)
+    existing_urls |= load_existing_urls()
+    db_conn = init_db()
+    existing_urls |= load_existing_urls_from_db(db_conn)
+    print(f"Total dedupe set size (sheet + db): {len(existing_urls)}")
+    run_id = start_run(db_conn, keywords)
 
-    browser.close()
-
-finish_run(db_conn, run_id, all_data)
-db_conn.close()
-print(f"Run {run_id} saved to {DB_FILE} ({len(all_data)} leads)")
-
-df = pd.DataFrame(all_data)
-
-if df.empty:
-    print("No new leads found.")
-else:
     try:
-        # Save only current run's leads (do not append past scrape data).
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+
+            for keyword in keywords:
+                if len(all_data) >= TOTAL_LEADS_LIMIT:
+                    break
+                scrape_keyword(page, keyword)
+
+            browser.close()
+    finally:
+        finish_run(db_conn, run_id, all_data)
+        db_conn.close()
+        print(f"Run {run_id} saved to {DB_FILE} ({len(all_data)} leads)")
+
+    df = pd.DataFrame(all_data)
+
+    if df.empty:
+        print("No new leads found.")
+        return
+
+    try:
         df.to_csv(OUTPUT_FILE, index=False)
         saved_path = OUTPUT_FILE
     except PermissionError:
@@ -411,3 +413,7 @@ else:
 
     print(df)
     print(f"Saved to {saved_path}")
+
+
+if __name__ == "__main__":
+    main()
