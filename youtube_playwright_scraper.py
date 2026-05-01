@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 30_000
 
 keywords = [
-    "how to get more clients",
-    "how to grow business",
+    "how to get plumbing leads",
+    "cleaning business scheduling system",
     "how to increase sales",
-    "how to get more bookings cleaning service",
-    "sales process for local business"
+    "contractor workflow automation",
+    "upselling home services"
 ]
 
 
