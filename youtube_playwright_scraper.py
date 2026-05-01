@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 30_000
 
 keywords = [
-    "business growth strategist",
-    "scaling business",
-    "cleaning leads",
-    "remote cleaning business",
-    "cleaning business academy"
+    "how to get more clients",
+    "how to grow business",
+    "how to increase sales",
+    "how to get more bookings cleaning service",
+    "sales process for local business"
 ]
 
 
