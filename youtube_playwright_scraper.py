@@ -302,7 +302,7 @@ def passes_channel_filters(page, channel_url):
         if age_days is None:
             return False, "latest_upload_unknown"
 
-        if age_days > 365:
+        if age_days >= 365:
             return False, "latest_upload_older_than_1_year"
 
         return True, ""
