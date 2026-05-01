@@ -20,7 +20,8 @@ keywords = [
     "business growth strategist",
     "scaling business coach",
     "fractional cfo",
-    "how to get leads for service business"
+    "remote cleaning business",
+    "cleaning business academy"
 ]
 
 
