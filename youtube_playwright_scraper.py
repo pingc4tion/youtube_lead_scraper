@@ -18,8 +18,8 @@ MAX_SUBSCRIBERS = 30_000
 
 keywords = [
     "business growth strategist",
-    "scaling business coach",
-    "fractional cfo",
+    "scaling business",
+    "cleaning leads",
     "remote cleaning business",
     "cleaning business academy"
 ]
