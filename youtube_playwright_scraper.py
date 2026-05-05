@@ -14,14 +14,14 @@ SHEET_HEADER_ROW = 11
 NAV_TIMEOUT_MS = 20000
 CHANNELS_PER_KEYWORD_LIMIT = 12
 TOTAL_LEADS_LIMIT = 30
-MAX_SUBSCRIBERS = 30_000
+MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "how to get plumbing leads",
-    "cleaning business scheduling system",
-    "how to increase sales",
-    "contractor workflow automation",
-    "upselling home services"
+    "personal brand coach",
+    "online course creator",
+    "local business owner",
+    "solopreneur",
+    "e-commerce founder"
 ]
 
 
