@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "personal brand coach",
-    "online course creator",
-    "local business owner",
-    "solopreneur",
-    "e-commerce founder"
+    "fitness coach business",
+    "wedding photographer business",
+    "interior designer business",
+    "real estate agent tips",
+    "life coach for women"
 ]
 
 
