@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "yoga studio owner",
-    "salon owner business",
-    "nutritionist business",
-    "career coach business",
-    "etsy seller journey"
+    "executive coach",
+    "health coach business",
+    "relationship coach",
+    "mindset coach",
+    "business coach for women"
 ]
 
 
