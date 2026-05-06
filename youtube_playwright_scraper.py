@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "etsy shop owner",
-    "law firm marketing",
-    "dental practice marketing",
-    "chiropractor business",
-    "financial advisor marketing"
+    "yoga studio owner",
+    "salon owner business",
+    "nutritionist business",
+    "career coach business",
+    "etsy seller journey"
 ]
 
 
