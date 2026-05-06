@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "fitness coach business",
-    "wedding photographer business",
-    "interior designer business",
-    "real estate agent tips",
-    "life coach for women"
+    "etsy shop owner",
+    "law firm marketing",
+    "dental practice marketing",
+    "chiropractor business",
+    "financial advisor marketing"
 ]
 
 
