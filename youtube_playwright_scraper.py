@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "hvac business owner",
-    "esthetician business owner",
-    "florist business owner",
-    "language coach business",
-    "music teacher business"
+    "barber shop owner",
+    "massage therapist business",
+    "therapist private practice",
+    "doula business",
+    "roofing business owner"
 ]
 
 
