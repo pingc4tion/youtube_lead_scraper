@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "leadership coach for women",
-    "landscaping business owner",
-    "pressure washing business owner",
-    "online tutor business",
-    "speaking coach"
+    "weight loss coach business",
+    "wedding planner business",
+    "tax consultant business",
+    "auto repair shop owner",
+    "money mindset coach"
 ]
 
 
