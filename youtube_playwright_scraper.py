@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "barber shop owner",
-    "massage therapist business",
-    "therapist private practice",
-    "doula business",
-    "roofing business owner"
+    "B2B sales coach",
+    "high ticket sales coach",
+    "cold calling coach",
+    "sales rep training",
+    "closing coach"
 ]
 
 
