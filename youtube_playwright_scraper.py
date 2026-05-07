@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "real estate agent training",
-    "mortgage broker",
-    "sales coach",
-    "window cleaning business owner",
-    "personal trainer business"
+    "leadership coach for women",
+    "landscaping business owner",
+    "pressure washing business owner",
+    "online tutor business",
+    "speaking coach"
 ]
 
 
