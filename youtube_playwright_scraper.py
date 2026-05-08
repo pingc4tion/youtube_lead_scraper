@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "plumbing business owner",
-    "electrician business owner",
-    "pest control business owner",
-    "painting business owner",
-    "junk removal business owner"
+    "carpet cleaning business owner",
+    "tree service business owner",
+    "moving company owner",
+    "home service business coach",
+    "contractor business coach"
 ]
 
 
