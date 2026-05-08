@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "insurance sales training",
-    "car sales training",
-    "saas sales coach",
-    "door to door sales",
-    "medical device sales training"
+    "dog training business",
+    "pilates instructor business",
+    "career change coach",
+    "freelance writing coach",
+    "pet groomer business"
 ]
 
 
