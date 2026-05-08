@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "dog training business",
-    "pilates instructor business",
-    "career change coach",
-    "freelance writing coach",
-    "pet groomer business"
+    "plumbing business owner",
+    "electrician business owner",
+    "pest control business owner",
+    "painting business owner",
+    "junk removal business owner"
 ]
 
 
