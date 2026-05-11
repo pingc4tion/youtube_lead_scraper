@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "carpet cleaning business owner",
-    "tree service business owner",
-    "moving company owner",
-    "home service business coach",
-    "contractor business coach"
+    "6 figure business coach",
+    "7 figure business coach",
+    "how i scaled my business",
+    "entrepreneur day in the life",
+    "documenting business journey"
 ]
 
 
