@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "6 figure business coach",
-    "7 figure business coach",
-    "how i scaled my business",
-    "entrepreneur day in the life",
-    "documenting business journey"
+    "6 figure online coach",
+    "7 figure online coach",
+    "scale to 6 figures",
+    "scale to 7 figures",
+    "8 figure business coach"
 ]
 
 
