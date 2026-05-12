@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "agency owner mindset",
-    "founder vlog",
-    "ceo daily routine",
-    "scaling to 10k mrr",
-    "business building vlog"
+    "indie hacker journey",
+    "build in public",
+    "agency growth diary",
+    "first year of business",
+    "solopreneur journey"
 ]
 
 
