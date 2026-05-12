@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "indie hacker journey",
-    "build in public",
-    "agency growth diary",
-    "first year of business",
-    "solopreneur journey"
+    "online coach lifestyle",
+    "growing my coaching business",
+    "agency owner vlog",
+    "consulting business journey",
+    "scaling my coaching business"
 ]
 
 
