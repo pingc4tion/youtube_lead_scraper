@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "building my coaching business",
-    "how i got my first client",
-    "consultant daily routine",
-    "running a coaching business",
-    "service business day in the life"
+    "high-ticket coach",
+    "client onboarding coach",
+    "scaling a service business",
+    "online business owner story",
+    "coaching launch story"
 ]
 
 
