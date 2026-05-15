@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "small business systems coach",
-    "freelance to agency journey",
-    "client retention coach",
-    "business mentorship journey",
-    "online coach success story"
+    "real estate agent vlog",
+    "new real estate agent",
+    "real estate broker daily",
+    "real estate team owner",
+    "real estate investor journey"
 ]
 
 
