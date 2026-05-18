@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "first year real estate",
-    "realtor day in the life",
-    "real estate prospecting",
-    "rental property investor",
-    "real estate cold calling"
+    "sales coaching academy",
+    "business coaching academy",
+    "sales mentor",
+    "business mastermind",
+    "high ticket academy"
 ]
 
 
