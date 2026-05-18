@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "real estate agent vlog",
-    "new real estate agent",
-    "real estate broker daily",
-    "real estate team owner",
-    "real estate investor journey"
+    "rookie realtor",
+    "luxury real estate agent",
+    "house flipping journey",
+    "wholesale real estate vlog",
+    "airbnb host journey"
 ]
 
 
