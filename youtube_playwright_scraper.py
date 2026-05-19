@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "post construction cleaning business",
-    "airbnb cleaning business",
-    "office cleaning business owner",
-    "cleaning business growth",
-    "cleaning crew owner"
+    "how to scale cleaning business",
+    "cleaning business blueprint",
+    "cleaning business 6 figures",
+    "double cleaning clients",
+    "scale cleaning company"
 ]
 
 
