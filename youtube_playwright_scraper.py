@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "sales call review",
-    "objection handling sales",
-    "sales prospecting coach",
-    "sales role play",
-    "outbound sales coach"
+    "commercial cleaning business",
+    "house cleaning business owner",
+    "starting a cleaning business",
+    "maid service business owner",
+    "janitorial business owner"
 ]
 
 
