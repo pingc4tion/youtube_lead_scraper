@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "commercial cleaning business",
-    "house cleaning business owner",
-    "starting a cleaning business",
-    "maid service business owner",
-    "janitorial business owner"
+    "post construction cleaning business",
+    "airbnb cleaning business",
+    "office cleaning business owner",
+    "cleaning business growth",
+    "cleaning crew owner"
 ]
 
 
