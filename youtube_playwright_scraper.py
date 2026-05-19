@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 3_000
 
 keywords = [
-    "sales coaching academy",
-    "business coaching academy",
-    "sales mentor",
-    "business mastermind",
-    "high ticket academy"
+    "sales call review",
+    "objection handling sales",
+    "sales prospecting coach",
+    "sales role play",
+    "outbound sales coach"
 ]
 
 
