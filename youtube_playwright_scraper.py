@@ -14,14 +14,14 @@ SHEET_HEADER_ROW = 11
 NAV_TIMEOUT_MS = 20000
 CHANNELS_PER_KEYWORD_LIMIT = 12
 TOTAL_LEADS_LIMIT = 30
-MAX_SUBSCRIBERS = 3_000
+MAX_SUBSCRIBERS = 1_000
 
 keywords = [
-    "how to scale cleaning business",
-    "cleaning business blueprint",
-    "cleaning business 6 figures",
-    "double cleaning clients",
-    "scale cleaning company"
+    "coaching mastery",
+    "online lessons business",
+    "expert coaching business",
+    "mastery program coach",
+    "private coach lessons"
 ]
 
 
