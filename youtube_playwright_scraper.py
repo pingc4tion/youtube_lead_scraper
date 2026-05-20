@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 1_000
 
 keywords = [
-    "life coach",
-    "fitness coach",
-    "guitar teacher",
-    "piano teacher",
-    "voice coach"
+    "amazonfba",
+    "keynote speaker",
+    "wellness coach",
+    "nutrition coach",
+    "branding coach"
 ]
 
 
