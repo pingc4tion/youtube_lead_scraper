@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 1_000
 
 keywords = [
-    "coaching mastery",
-    "online lessons business",
-    "expert coaching business",
-    "mastery program coach",
-    "private coach lessons"
+    "life coach",
+    "fitness coach",
+    "guitar teacher",
+    "piano teacher",
+    "voice coach"
 ]
 
 
