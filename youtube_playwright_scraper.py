@@ -217,8 +217,16 @@ def parse_subscriber_count(text):
     return int(num * multiplier)
 
 
+DEMO_CTA_RE = re.compile(
+    r"\b(book|request|schedule|get|try)\s+(a\s+)?(free\s+)?demo\b"
+    r"|\bdemo\s+(today|now)\b"
+    r"|\bbook\s+a\s+call\b.*\bdemo\b",
+    re.IGNORECASE,
+)
+
+
 def about_page_state(page, channel_url):
-    """Returns (is_india, subscriber_count_or_None)."""
+    """Returns (is_india, subscriber_count_or_None, has_demo_cta)."""
     page.goto(f"{channel_url}/about", wait_until="domcontentloaded", timeout=NAV_TIMEOUT_MS)
     try:
         page.wait_for_selector("ytd-about-channel-renderer, #additional-info-container", timeout=5000)
@@ -228,7 +236,8 @@ def about_page_state(page, channel_url):
     about_text = page.locator("body").inner_text(timeout=5000)
     is_india = bool(re.search(r"country[:\s]*\n?\s*india\b", about_text, re.IGNORECASE))
     sub_count = parse_subscriber_count(about_text)
-    return is_india, sub_count
+    has_demo_cta = bool(DEMO_CTA_RE.search(about_text))
+    return is_india, sub_count, has_demo_cta
 
 
 def videos_tab_state(page, channel_url):
@@ -282,9 +291,12 @@ def has_shorts(page, channel_url):
 
 def passes_channel_filters(page, channel_url):
     try:
-        is_india, sub_count = about_page_state(page, channel_url)
+        is_india, sub_count, has_demo_cta = about_page_state(page, channel_url)
         if is_india:
             return False, "country=India"
+
+        if has_demo_cta:
+            return False, "demo_cta_in_about"
 
         if sub_count is None:
             return False, "subscriber_count_unknown"
