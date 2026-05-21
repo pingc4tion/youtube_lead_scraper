@@ -17,11 +17,11 @@ TOTAL_LEADS_LIMIT = 30
 MAX_SUBSCRIBERS = 1_000
 
 keywords = [
-    "building my full time business",
-    "mistakes building my business",
-    "what i learned starting my business",
-    "lessons from my first year",
-    "biggest mistakes starting business"
+    "how i quit my job",
+    "side hustle to full time",
+    "behind the scenes of my business",
+    "starting a business from scratch",
+    "my entrepreneur journey"
 ]
 
 
